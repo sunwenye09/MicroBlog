@@ -1,0 +1,174 @@
+.app {
+  width: 600px;
+  height: fit-content;
+  
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dee2e6;
+  margin: auto;
+
+}
+
+.app h1 {
+  text-align: center;
+}
+.app .navigation { 
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1DA1F2;
+  
+}
+
+.navigation li a{
+  color: whitesmoke;
+}
+
+.blogs-per-page {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.blogs-per-page label {
+  padding-right: 1rem;
+}
+.blog-list {
+  list-style: none;
+  padding-left: 0;
+}
+.blog-list li{
+  margin: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  border-style: solid;
+  border-radius: 1rem;
+  border-color: #1DA1F2;
+  border-width: 1px;
+
+  display: flex;
+  flex-direction: column;
+}
+.blog-author {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.blog-text {
+  margin-bottom: 1rem;
+  font-size: medium;
+}
+.blog-relevent-info {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color: #354f52;
+  font-size: medium;
+}
+.blog-relevent-info button, .commands-for-edition button {
+  border-style: none;
+  border-radius: 1rem;
+  color: #354f52;
+  font-size: medium;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.blog-in-edition textarea{
+  border-style: none;
+}
+.commands-for-edition {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.turn-page-commands {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.turn-page-commands button {
+  background-color: #1DA1F2;
+  border-style: solid;
+  border-radius: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-color: #1DA1F2;
+  font-size: medium;
+}
+.create-blog {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem; 
+}
+.create-blog textarea {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  border-color: gainsboro;
+}
+.create-blog button {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: #1DA1F2;
+  border-style: solid;
+  border-radius: 1.5rem;
+  border-color: #1DA1F2;
+  font-size: medium;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: large;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: large;
+}
+.login *, .signup *{
+  margin-bottom: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-width: 1px;
+}
+.login input, .signup input {
+  font-size: medium;
+  border-style: solid;
+  border-color: gainsboro;
+}
+.login-button {
+  border-style: solid;
+  border-color: #1DA1F2;
+  border-radius: 1rem;
+  font-size: medium;
+}
+.signup-button {
+  background-color: #1DA1F2;
+  border-style: solid;
+  border-radius: 1rem;
+  border-color: #1DA1F2;
+  font-size: medium;
+}
+.friend-list li{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.error-message {
+  color: #e63946;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.normal-message {
+  color: #1DA1F2;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
